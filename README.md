@@ -29,7 +29,7 @@ pm-toolkit/
 ├── guides/
 │   └── how_to_create_a_raid_log.md
 └── examples/
-└── sample_raid_log.md
+    └── sample_raid_log.md
 
 ```
 
