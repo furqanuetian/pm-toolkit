@@ -21,6 +21,7 @@ This toolkit is designed to help Technical Project Managers:
 ```text
 Initiation
  ├─ Project Charter
+ ├─ Stakeholder Register
  └─ Kickoff Checklist
 
 Planning
@@ -44,6 +45,7 @@ pm-toolkit/
 ├── README.md
 ├── templates/
 │   ├── project_charter.md
+│   ├── stakeholder_register.md
 │   ├── project_kickoff_checklist.md
 │   ├── sprint_planning_agenda.md
 │   ├── requirements_traceability_matrix.md
@@ -64,6 +66,7 @@ pm-toolkit/
 | Template | Purpose |
 |----------|---------|
 | **Project Charter** | Formally authorize projects, define objectives, scope, stakeholders, constraints, and success criteria. |
+| **Stakeholder Register** | Identify stakeholders, assess their influence, and define how to engage them. |
 | **Project Kickoff Checklist** | Ensure every project starts with clear alignment, defined responsibilities, and agreed next steps. |
 | **Sprint Planning Agenda** | Facilitate Scrum-compliant Sprint Planning focused on the Sprint Goal and Sprint Backlog. |
 | **Requirements Traceability Matrix** | Verify that every requirement is implemented, tested, and traceable. |
@@ -86,6 +89,8 @@ pm-toolkit/
 These templates are grounded in delivery work on embedded systems and industrial software for US-based clients. A few examples:
 
 - **Project Charter** — developed to provide a lightweight project authorization artifact that aligns business objectives, scope, stakeholders, and governance while remaining practical for technical delivery teams.
+
+- **Stakeholder Register** — created to provide a practical framework for identifying stakeholders, understanding their influence and interest, and planning targeted engagement strategies that keep projects aligned with organizational priorities.
 
 - **RAID Log Template** — informed by a case where NFC integration failures stalled a Hardware-in-the-Loop (HiL) test suite for three weeks due to a mismatch between legacy hardware and updated firmware protocols. Resolving it required a cross-team investigation, coordinated hardware procurement, and a clean code commit.
 
@@ -133,13 +138,13 @@ This repository complements my [PSM I Study Repository](https://github.com/furqa
 
 Future additions may include:
 
-- Stakeholder Register
-- Communication Plan
-- Decision Log
-- Change Request Log
-- Resource Plan
-- Lessons Learned Register
-- Project Closure Report
+- [x] Stakeholder Register
+- [ ] Communication Plan
+- [ ] Decision Log
+- [ ] Change Request Log
+- [ ] Resource Plan
+- [ ] Lessons Learned Register
+- [ ] Project Closure Report
 
 ---
 
