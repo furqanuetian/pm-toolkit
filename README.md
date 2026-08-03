@@ -27,6 +27,7 @@ Initiation
 Planning
  ├─ Sprint Planning
  ├─ Communication Plan
+ ├─ Decision Log
  └─ Requirements Traceability
 
 Execution
@@ -49,6 +50,7 @@ pm-toolkit/
 │   ├── stakeholder_register.md
 │   ├── project_kickoff_checklist.md
 │   ├── communication_plan.md
+│   ├── decision_log.md
 │   ├── sprint_planning_agenda.md
 │   ├── requirements_traceability_matrix.md
 │   ├── definition_of_done_checklist_embedded.md
@@ -71,6 +73,7 @@ pm-toolkit/
 | **Stakeholder Register** | Identify stakeholders, assess their influence, and define how to engage them. |
 | **Project Kickoff Checklist** | Ensure every project starts with clear alignment, defined responsibilities, and agreed next steps. |
 | **Communication Plan** | Define how project information will be shared, with whom, and at what frequency. |
+| **Decision Log** | Track key project decisions, including context, rationale, and outcomes. |
 | **Sprint Planning Agenda** | Facilitate Scrum-compliant Sprint Planning focused on the Sprint Goal and Sprint Backlog. |
 | **Requirements Traceability Matrix** | Verify that every requirement is implemented, tested, and traceable. |
 | **Definition of Done Checklist (Embedded)** | Maintain consistent quality standards for embedded and firmware development. |
@@ -96,6 +99,8 @@ These templates are grounded in delivery work on embedded systems and industrial
 - **Stakeholder Register** — created to provide a practical framework for identifying stakeholders, understanding their influence and interest, and planning targeted engagement strategies that keep projects aligned with organizational priorities.
 
 - **Communication Plan** — designed to establish clear communication channels, reporting cadences, and escalation paths that keep teams aligned and stakeholders informed throughout the project lifecycle.
+
+- **Decision Log** — developed to provide a lightweight audit trail for significant project decisions, capturing context, alternatives, rationale, and traceability to other governance artifacts.
 
 - **RAID Log Template** — informed by a case where NFC integration failures stalled a Hardware-in-the-Loop (HiL) test suite for three weeks due to a mismatch between legacy hardware and updated firmware protocols. Resolving it required a cross-team investigation, coordinated hardware procurement, and a clean code commit.
 
@@ -145,7 +150,7 @@ Future additions may include:
 
 - [x] Stakeholder Register
 - [x] Communication Plan
-- [ ] Decision Log
+- [x] Decision Log
 - [ ] Change Request Log
 - [ ] Resource Plan
 - [ ] Lessons Learned Register
