@@ -16,6 +16,18 @@ This toolkit is designed to help Technical Project Managers:
 
 ---
 
+## 🎯 Design Principles
+
+Every template in this repository is designed to be:
+
+- **Lightweight** — practical enough for day-to-day project delivery.
+- **Vendor-neutral** — adaptable to Jira, Azure DevOps, GitHub, Notion, or Confluence.
+- **Engineering-focused** — created for embedded systems, industrial software, and technical product teams.
+- **Traceable** — designed to link naturally with related governance artifacts such as RAID Logs, Decision Logs, Change Requests, and Requirements Traceability Matrices.
+- **Reusable** — written in Markdown for easy version control and customization.
+
+---
+
 ## 🧭 Toolkit Coverage
 
 ```text
@@ -24,10 +36,11 @@ Initiation
  ├─ Stakeholder Register
  └─ Kickoff Checklist
 
-Planning
+Planning & Governance
  ├─ Sprint Planning
  ├─ Communication Plan
  ├─ Decision Log
+ ├─ Change Request Log
  └─ Requirements Traceability
 
 Execution
@@ -51,6 +64,7 @@ pm-toolkit/
 │   ├── project_kickoff_checklist.md
 │   ├── communication_plan.md
 │   ├── decision_log.md
+│   ├── change_request_log.md
 │   ├── sprint_planning_agenda.md
 │   ├── requirements_traceability_matrix.md
 │   ├── definition_of_done_checklist_embedded.md
@@ -67,15 +81,25 @@ pm-toolkit/
 
 ## 📋 Available Templates
 
+### Initiation
 | Template | Purpose |
 |----------|---------|
 | **Project Charter** | Formally authorize projects, define objectives, scope, stakeholders, constraints, and success criteria. |
 | **Stakeholder Register** | Identify stakeholders, assess their influence, and define how to engage them. |
 | **Project Kickoff Checklist** | Ensure every project starts with clear alignment, defined responsibilities, and agreed next steps. |
-| **Communication Plan** | Define how project information will be shared, with whom, and at what frequency. |
-| **Decision Log** | Track key project decisions, including context, rationale, and outcomes. |
+
+### Planning & Governance
+| Template | Purpose |
+|----------|---------|
 | **Sprint Planning Agenda** | Facilitate Scrum-compliant Sprint Planning focused on the Sprint Goal and Sprint Backlog. |
+| **Communication Plan** | Define how project information will be shared, with whom, and at what frequency. |
 | **Requirements Traceability Matrix** | Verify that every requirement is implemented, tested, and traceable. |
+| **Decision Log** | Track key project decisions, including context, rationale, and outcomes. |
+| **Change Request Log** | Track requested changes to scope, schedule, budget, or deliverables, and document their evaluation and approval. |
+
+### Execution
+| Template | Purpose |
+|----------|---------|
 | **Definition of Done Checklist (Embedded)** | Maintain consistent quality standards for embedded and firmware development. |
 | **RAID Log Template** | Track Risks, Assumptions, Issues, and Dependencies throughout the project lifecycle. |
 
@@ -101,6 +125,8 @@ These templates are grounded in delivery work on embedded systems and industrial
 - **Communication Plan** — designed to establish clear communication channels, reporting cadences, and escalation paths that keep teams aligned and stakeholders informed throughout the project lifecycle.
 
 - **Decision Log** — developed to provide a lightweight audit trail for significant project decisions, capturing context, alternatives, rationale, and traceability to other governance artifacts.
+
+- **Change Request Log** — created to manage scope, schedule, and budget changes systematically, ensuring that every change is evaluated for impact, approved by the right authority, and traced back to governance decisions.
 
 - **RAID Log Template** — informed by a case where NFC integration failures stalled a Hardware-in-the-Loop (HiL) test suite for three weeks due to a mismatch between legacy hardware and updated firmware protocols. Resolving it required a cross-team investigation, coordinated hardware procurement, and a clean code commit.
 
@@ -138,7 +164,7 @@ All contributions are welcome — especially templates grounded in real-world te
 
 ## 🛠️ Why I Built This
 
-As a Technical Project Manager working with embedded systems and industrial software teams, I found that many publicly available PM templates were either overly generic or document-heavy. This repository captures lightweight, reusable artifacts that I've adapted for real-world technical projects.
+Many publicly available project management templates are either too generic for engineering teams or too heavyweight for day-to-day delivery. This toolkit focuses on lightweight, reusable artifacts that balance governance with practicality for embedded systems and industrial software projects.
 
 This repository complements my [PSM I Study Repository](https://github.com/furqanuetian/psm1-study-guide) and will continue to grow with additional templates and guides.
 
@@ -151,10 +177,11 @@ Future additions may include:
 - [x] Stakeholder Register
 - [x] Communication Plan
 - [x] Decision Log
-- [ ] Change Request Log
+- [x] Change Request Log
 - [ ] Resource Plan
 - [ ] Lessons Learned Register
 - [ ] Project Closure Report
+- [ ] Embedded-specific templates (Release Readiness, Technical Debt Register, Integration Readiness, etc.)
 
 ---
 
