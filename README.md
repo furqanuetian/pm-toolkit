@@ -14,7 +14,7 @@ This toolkit is designed to help Technical Project Managers:
 - **Track risks and dependencies** — RAID logs and requirements traceability
 - **Run effective Agile ceremonies** — Sprint Planning templates aligned with the Scrum Guide
 - **Maintain delivery quality** — Definition of Done checklists for embedded systems
-- **Close knowledge gaps** — practical guides and real-world examples
+- **Close projects effectively** — closure reports, lessons learned, and handover checklists
 
 ---
 
@@ -54,7 +54,7 @@ Execution
 
 Closure
  ├─ Lessons Learned Register
- └─ (Project Closure Report Coming Soon)
+ └─ Project Closure Report
 ```
 
 ---
@@ -100,6 +100,7 @@ pm-toolkit/
 │   ├── decision_log.md
 │   ├── change_request_log.md
 │   ├── lessons_learned_register.md
+│   ├── project_closure_report.md
 │   ├── definition_of_done_checklist_embedded.md
 │   └── raid_log_template.md
 ├── guides/
@@ -141,6 +142,7 @@ pm-toolkit/
 | Template | Purpose |
 |----------|---------|
 | **Lessons Learned Register** | Capture, track, and apply lessons from project experiences to improve future project delivery. |
+| **Project Closure Report** | Document project outcomes, confirm completion, capture lessons learned, and formally close the project. |
 
 ---
 
@@ -170,6 +172,8 @@ These templates are grounded in delivery work on embedded systems and industrial
 - **Change Request Log** — Systematic management of scope, schedule, and budget changes with impact evaluation and approval tracking.
 
 - **Lessons Learned Register** — Continuous capture of observations and lessons to improve future project delivery.
+
+- **Project Closure Report** — Structured closure that documents outcomes, captures lessons, and formalizes project completion.
 
 - **RAID Log** — Informed by a case where NFC integration failures stalled a Hardware-in-the-Loop (HiL) test suite for three weeks due to a mismatch between legacy hardware and updated firmware protocols.
 
@@ -217,7 +221,6 @@ This repository complements my [PSM I Study Repository](https://github.com/furqa
 
 Planned additions:
 
-- [ ] Project Closure Report
 - [ ] Release Readiness Checklist
 - [ ] Technical Debt Register
 - [ ] Integration Readiness Checklist
