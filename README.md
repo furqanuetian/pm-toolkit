@@ -39,6 +39,7 @@ Initiation
 Planning & Governance
  ├─ Sprint Planning
  ├─ Communication Plan
+ ├─ Resource Plan
  ├─ Decision Log
  ├─ Change Request Log
  └─ Requirements Traceability
@@ -63,6 +64,7 @@ pm-toolkit/
 │   ├── stakeholder_register.md
 │   ├── project_kickoff_checklist.md
 │   ├── communication_plan.md
+│   ├── resource_plan.md
 │   ├── decision_log.md
 │   ├── change_request_log.md
 │   ├── sprint_planning_agenda.md
@@ -93,6 +95,7 @@ pm-toolkit/
 |----------|---------|
 | **Sprint Planning Agenda** | Facilitate Scrum-compliant Sprint Planning focused on the Sprint Goal and Sprint Backlog. |
 | **Communication Plan** | Define how project information will be shared, with whom, and at what frequency. |
+| **Resource Plan** | Identify team roles, required skills, allocation, and capacity constraints. |
 | **Requirements Traceability Matrix** | Verify that every requirement is implemented, tested, and traceable. |
 | **Decision Log** | Track key project decisions, including context, rationale, and outcomes. |
 | **Change Request Log** | Track requested changes to scope, schedule, budget, or deliverables, and document their evaluation and approval. |
@@ -123,6 +126,8 @@ These templates are grounded in delivery work on embedded systems and industrial
 - **Stakeholder Register** — created to provide a practical framework for identifying stakeholders, understanding their influence and interest, and planning targeted engagement strategies that keep projects aligned with organizational priorities.
 
 - **Communication Plan** — designed to establish clear communication channels, reporting cadences, and escalation paths that keep teams aligned and stakeholders informed throughout the project lifecycle.
+
+- **Resource Plan** — developed to help PMs answer critical questions about team capacity, skill gaps, and resource dependencies before they become delivery risks.
 
 - **Decision Log** — developed to provide a lightweight audit trail for significant project decisions, capturing context, alternatives, rationale, and traceability to other governance artifacts.
 
@@ -178,7 +183,7 @@ Future additions may include:
 - [x] Communication Plan
 - [x] Decision Log
 - [x] Change Request Log
-- [ ] Resource Plan
+- [x] Resource Plan
 - [ ] Lessons Learned Register
 - [ ] Project Closure Report
 - [ ] Embedded-specific templates (Release Readiness, Technical Debt Register, Integration Readiness, etc.)
