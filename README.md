@@ -1,6 +1,8 @@
 # PM Toolkit — Furqan Rehmat
 
-A curated collection of practical templates, checklists, and guides for Technical Project Managers delivering embedded systems, industrial software, and complex engineering projects.
+**A curated collection of lightweight, engineering-focused templates, checklists, and practical guides for Technical Project Managers delivering embedded systems, industrial software, and complex engineering projects.**
+
+All templates are written in Markdown, version-control friendly, and designed to be copied, customized, and used immediately.
 
 ---
 
@@ -16,7 +18,7 @@ This toolkit is designed to help Technical Project Managers:
 
 ---
 
-## 🎯 Design Principles
+## ⚙️ Design Principles
 
 Every template in this repository is designed to be:
 
@@ -26,9 +28,11 @@ Every template in this repository is designed to be:
 - **Traceable** — designed to link naturally with related governance artifacts such as RAID Logs, Decision Logs, Change Requests, and Requirements Traceability Matrices.
 - **Reusable** — written in Markdown for easy version control and customization.
 
+Together, these principles balance practicality with disciplined project governance.
+
 ---
 
-## 🧭 Toolkit Coverage
+## 📦 What's Included
 
 ```text
 Initiation
@@ -37,19 +41,45 @@ Initiation
  └─ Kickoff Checklist
 
 Planning & Governance
- ├─ Sprint Planning
  ├─ Communication Plan
  ├─ Resource Plan
+ ├─ Sprint Planning
+ ├─ Requirements Traceability
  ├─ Decision Log
- ├─ Change Request Log
- └─ Requirements Traceability
+ └─ Change Request Log
 
 Execution
  ├─ Definition of Done
  └─ RAID Log
 
 Closure
- └─ (Coming Soon)
+ ├─ Lessons Learned Register
+ └─ (Project Closure Report Coming Soon)
+```
+
+---
+
+## 🔄 How the Templates Work Together
+
+```text
+Initiation
+   │
+   ▼
+Planning
+   │
+   ▼
+Execution
+   │
+   ├── Decision Log
+   ├── RAID Log
+   ├── Change Request Log
+   └── Requirements Traceability
+   │
+   ▼
+Lessons Learned Register
+   │
+   ▼
+Project Closure Report
 ```
 
 ---
@@ -65,10 +95,11 @@ pm-toolkit/
 │   ├── project_kickoff_checklist.md
 │   ├── communication_plan.md
 │   ├── resource_plan.md
-│   ├── decision_log.md
-│   ├── change_request_log.md
 │   ├── sprint_planning_agenda.md
 │   ├── requirements_traceability_matrix.md
+│   ├── decision_log.md
+│   ├── change_request_log.md
+│   ├── lessons_learned_register.md
 │   ├── definition_of_done_checklist_embedded.md
 │   └── raid_log_template.md
 ├── guides/
@@ -93,9 +124,9 @@ pm-toolkit/
 ### Planning & Governance
 | Template | Purpose |
 |----------|---------|
-| **Sprint Planning Agenda** | Facilitate Scrum-compliant Sprint Planning focused on the Sprint Goal and Sprint Backlog. |
 | **Communication Plan** | Define how project information will be shared, with whom, and at what frequency. |
 | **Resource Plan** | Identify team roles, required skills, allocation, and capacity constraints. |
+| **Sprint Planning Agenda** | Facilitate Scrum-compliant Sprint Planning focused on the Sprint Goal and Sprint Backlog. |
 | **Requirements Traceability Matrix** | Verify that every requirement is implemented, tested, and traceable. |
 | **Decision Log** | Track key project decisions, including context, rationale, and outcomes. |
 | **Change Request Log** | Track requested changes to scope, schedule, budget, or deliverables, and document their evaluation and approval. |
@@ -105,6 +136,11 @@ pm-toolkit/
 |----------|---------|
 | **Definition of Done Checklist (Embedded)** | Maintain consistent quality standards for embedded and firmware development. |
 | **RAID Log Template** | Track Risks, Assumptions, Issues, and Dependencies throughout the project lifecycle. |
+
+### Closure
+| Template | Purpose |
+|----------|---------|
+| **Lessons Learned Register** | Capture, track, and apply lessons from project experiences to improve future project delivery. |
 
 ---
 
@@ -117,29 +153,31 @@ pm-toolkit/
 
 ---
 
-## 📌 Real-World Context
+## 📌 Why These Templates Exist
 
 These templates are grounded in delivery work on embedded systems and industrial software for US-based clients. A few examples:
 
-- **Project Charter** — developed to provide a lightweight project authorization artifact that aligns business objectives, scope, stakeholders, and governance while remaining practical for technical delivery teams.
+- **Project Charter** — Lightweight project authorization that aligns objectives, scope, and governance without bureaucracy.
 
-- **Stakeholder Register** — created to provide a practical framework for identifying stakeholders, understanding their influence and interest, and planning targeted engagement strategies that keep projects aligned with organizational priorities.
+- **Stakeholder Register** — Practical framework for identifying stakeholders, understanding their influence, and planning targeted engagement.
 
-- **Communication Plan** — designed to establish clear communication channels, reporting cadences, and escalation paths that keep teams aligned and stakeholders informed throughout the project lifecycle.
+- **Communication Plan** — Clear communication channels, reporting cadences, and escalation paths.
 
-- **Resource Plan** — developed to help PMs answer critical questions about team capacity, skill gaps, and resource dependencies before they become delivery risks.
+- **Resource Plan** — Helps identify capacity constraints, skill gaps, and resource dependencies before they affect delivery.
 
-- **Decision Log** — developed to provide a lightweight audit trail for significant project decisions, capturing context, alternatives, rationale, and traceability to other governance artifacts.
+- **Decision Log** — Lightweight audit trail for significant project decisions with context, alternatives, and rationale.
 
-- **Change Request Log** — created to manage scope, schedule, and budget changes systematically, ensuring that every change is evaluated for impact, approved by the right authority, and traced back to governance decisions.
+- **Change Request Log** — Systematic management of scope, schedule, and budget changes with impact evaluation and approval tracking.
 
-- **RAID Log Template** — informed by a case where NFC integration failures stalled a Hardware-in-the-Loop (HiL) test suite for three weeks due to a mismatch between legacy hardware and updated firmware protocols. Resolving it required a cross-team investigation, coordinated hardware procurement, and a clean code commit.
+- **Lessons Learned Register** — Continuous capture of observations and lessons to improve future project delivery.
 
-- **Requirements Traceability Matrix** — informed by a case where a client pushed to start development on incomplete requirements. A data-backed gap analysis exposed undefined communication protocols and missing payload specifications before they caused rework, preventing roughly two weeks of inefficient work while maintaining safety compliance.
+- **RAID Log** — Informed by a case where NFC integration failures stalled a Hardware-in-the-Loop (HiL) test suite for three weeks due to a mismatch between legacy hardware and updated firmware protocols.
 
-- **Definition of Done Checklist** — informed by a case where an automated V&V test suite had fallen behind the main development branch, threatening a compliance milestone. A reverse-merge strategy resolved the issue without touching production code, avoiding an estimated 15-day schedule slip.
+- **Requirements Traceability Matrix** — Informed by a case where a data-backed gap analysis exposed undefined communication protocols and missing payload specifications before they caused rework.
 
-- **Sprint Planning Agenda** — built around the Scrum Guide's three topics (Why, What, and How) and the accountabilities they define, refined while preparing for the PSM I certification.
+- **Definition of Done Checklist** — Informed by a case where a reverse-merge strategy resolved a V&V test suite issue without touching production code, avoiding an estimated 15-day schedule slip.
+
+- **Sprint Planning Agenda** — Built around the Scrum Guide's three topics (Why, What, and How), refined while preparing for the PSM I certification.
 
 **Read the complete project case studies in my [Notion Portfolio](https://glow-potential-c65.notion.site/Furqan-Rehmat-Portfolio-3873d6c3ef738044a9f0ddf11ce00c48).**
 
@@ -177,16 +215,13 @@ This repository complements my [PSM I Study Repository](https://github.com/furqa
 
 ## 🗺️ Roadmap
 
-Future additions may include:
+Planned additions:
 
-- [x] Stakeholder Register
-- [x] Communication Plan
-- [x] Decision Log
-- [x] Change Request Log
-- [x] Resource Plan
-- [ ] Lessons Learned Register
 - [ ] Project Closure Report
-- [ ] Embedded-specific templates (Release Readiness, Technical Debt Register, Integration Readiness, etc.)
+- [ ] Release Readiness Checklist
+- [ ] Technical Debt Register
+- [ ] Integration Readiness Checklist
+- [ ] Risk Response Plan
 
 ---
 
