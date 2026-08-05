@@ -49,6 +49,7 @@ Planning & Governance
  └─ Change Request Log
 
 Execution
+ ├─ Project Dashboard
  ├─ Definition of Done
  └─ RAID Log
 
@@ -70,6 +71,7 @@ Planning
    ▼
 Execution
    │
+   ├── Project Dashboard
    ├── Decision Log
    ├── RAID Log
    ├── Change Request Log
@@ -99,6 +101,7 @@ pm-toolkit/
 │   ├── requirements_traceability_matrix.md
 │   ├── decision_log.md
 │   ├── change_request_log.md
+│   ├── project_dashboard.md
 │   ├── lessons_learned_register.md
 │   ├── project_closure_report.md
 │   ├── definition_of_done_checklist_embedded.md
@@ -135,6 +138,7 @@ pm-toolkit/
 ### Execution
 | Template | Purpose |
 |----------|---------|
+| **Project Dashboard** | Single-page view of project health, delivery metrics, risks, and blockers. |
 | **Definition of Done Checklist (Embedded)** | Maintain consistent quality standards for embedded and firmware development. |
 | **RAID Log Template** | Track Risks, Assumptions, Issues, and Dependencies throughout the project lifecycle. |
 
@@ -170,6 +174,8 @@ These templates are grounded in delivery work on embedded systems and industrial
 - **Decision Log** — Lightweight audit trail for significant project decisions with context, alternatives, and rationale.
 
 - **Change Request Log** — Systematic management of scope, schedule, and budget changes with impact evaluation and approval tracking.
+
+- **Project Dashboard** — Single-page view for tracking blockers, delivery metrics, and project health — directly reflecting the dashboard redesign that reduced blocker resolution time by 66%.
 
 - **Lessons Learned Register** — Continuous capture of observations and lessons to improve future project delivery.
 
